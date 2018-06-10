@@ -7,11 +7,15 @@ tags: 博客
 
 ​      
 
-​        Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
+ 
 
-​        Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享 等等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。[Jekyll中文文档](http://jekyll.bootcss.com/)、[Jekyll英文文档](https://jekyllrb.com/)、[Jekyll主题列表](http://jekyllthemes.org/)。
+### 0、前言
 
+Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
 
+Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。[Jekyll中文文档](http://jekyll.bootcss.com/)、[Jekyll英文文档](https://jekyllrb.com/)、[Jekyll主题列表](http://jekyllthemes.org/)。
+
+<br>
 
 ### 1、安装Ruby
 
@@ -29,11 +33,13 @@ tags: 博客
 
   > D:\Qinwenhui\Ruby\Ruby22-x64\bin
 
+<br>
+
 
 
 ### 2、安装DevKit
 
-- 下载列表：[RubyInstaller](https://rubyinstaller.org/downloads/)
+- 下载地址：[RubyInstaller](https://rubyinstaller.org/downloads/)
 
 - ![](/images/posts/blog/b2.jpg)
 
@@ -77,6 +83,8 @@ tags: 博客
 
   ![](/images/posts/blog/b4.jpg)
 
+<br>
+
 
 
 ### 3、安装jekyll
@@ -100,6 +108,8 @@ tags: 博客
   ```c++
   jekyll --version
   ```
+
+<br>
 
 
 
@@ -136,6 +146,8 @@ tags: 博客
   ```
 
 - 新建的项目，运行成功是一个空白界面，修改index.md即可产生想要的内容
+
+<br>
 
 
 
