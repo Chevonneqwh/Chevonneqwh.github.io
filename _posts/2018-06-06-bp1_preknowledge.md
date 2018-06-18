@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BP神经网络手写体识别（一）预备知识
+title: "BP神经网络手写体识别（一）预备知识"
 date: 2018-06-06 
 tags: BP神经网络   
 ---
@@ -11,7 +11,13 @@ tags: BP神经网络
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script> 
 
+<br>
+
 在实现编码之前，让我们先来了解一下图像与BP神经网络吧！
+
+<br>
+
+
 
 ### 1. 图像
 
@@ -141,6 +147,9 @@ tags: BP神经网络
 
 
 
+
+
+
 - f(x)为输出层的激活函数，这里取
   $$
   f(x) = \frac1{1+e^{-x}}
@@ -203,6 +212,9 @@ tags: BP神经网络
   - $$
     b2[k] = b2[k] + θ×Eout[k]
     $$
+
+
+
 
 
 
